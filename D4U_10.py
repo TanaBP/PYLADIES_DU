@@ -1,8 +1,8 @@
-for dalsi_radky in range(5):
-	for radek in range(5):
+print("Napíš počet stĺpcov:")
+n = int(input())
+
+for dalsi_radky in range(n):
+	for radek in range(n):
 			print(radek*dalsi_radky, end=" ")
-			
-	print()		
 
-
-
+	print()
